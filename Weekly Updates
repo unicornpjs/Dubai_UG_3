@@ -1,0 +1,185 @@
+Week 1: 
+
+Summary: 
+
+We met as a team, reviewed the coursework guidelines, and created a timeline to track tasks and deadlines leading up to the Week 4 deliverable. 
+
+Challenges: 
+
+Coordinating a meeting time to discuss was difficult due to varying schedules. To resolve this, we agreed to meet online during the week and come in early on Fridays for lab work. 
+
+Next Steps: 
+
+Meet next week to discuss potential applications and datasets. 
+
+  
+
+--- 
+
+  
+
+Week 2: 
+
+ Summary: 
+
+We discussed possible applications suggested by each group member, analyzing their pros and cons to shortlist a few. The three application ideas included: 
+
+- Email Spam Classification: Helps users avoid spam emails. 
+
+- Disaster Detection (Hurricanes, Typhoons, Flooding): Aims to predict disaster formation and track its impact, helping implement early warnings. 
+
+- Vehicle License Identification: Categorizes vehicle details for fines and other purposes. 
+
+Challenges: 
+
+Deciding on an application was challenging. Ms. Hend helped by providing insights on the pros and cons, which aided our final choice. 
+
+ References: 
+
+ https://huggingface.co/datasets/TrainingDataPro/email-spam-classification 
+
+https://www.kaggle.com/datasets/hudairr/email-spam-detection-dataset 
+
+https://www.kaggle.com/datasets/venky73/spam-mails-dataset 
+
+https://www.kaggle.com/datasets/jackksoncsie/spam-email-dataset 
+
+https://medium.com/@azimkhan8018/email-spam-detection-with-machine-learning-a-comprehensive-guide-b65c6 
+
+https://www.kaggle.com/datasets/noaa/hurricane-database 
+
+https://www.kaggle.com/datasets/headsortails/us-natural-disaster-declarations 
+
+Typhoon datasets and code. (figshare.com) 
+
+https://www.statista.com/statistics/744015/most-expensive-natural-disasters-usa/ 
+
+https://searchworks.stanford.edu/view/jp095bg5089 
+
+https://www.kaggle.com/datasets/prernarohra/earthquake-intensity-dataset 
+
+https://www.kaggle.com/datasets/syedahnafraza/global-earthquake-and-aftershock-data-january-23 
+
+https://www.kaggle.com/datasets/mikolajbabula/disaster-images-dataset-cnn-model 
+
+https://www.kaggle.com/datasets/sheezawaheed/number-plate-dataset-of-uae-5-emirates/data 
+
+https://universe.roboflow.com/label-11-qi1do/uae-car-wtiyo/dataset/5 
+
+https://universe.roboflow.com/zara-hara/car-plate-k6xij 
+
+ 
+
+Next Steps: 
+
+Start preprocessing the dataset for the chosen application. 
+
+  
+
+--- 
+
+  
+
+Week 3: 
+
+Summary: 
+
+We examined 2–3 selected datasets, understanding their structure and potential usage. Preprocessing began, using Lab 1–3 as a guide. 
+
+References: 
+
+YouTube videos and ChatGPT. 
+
+Challenges:  
+
+Encountered difficulties in plotting graphs, handling missing values, and preprocessing images. Google Collab and online resources helped clarify these steps. 
+
+  
+
+Next Steps: 
+
+Prepare the presentation slides. 
+
+  
+
+--- 
+
+  
+
+Week 4:  
+
+Summary: 
+
+We focused on dataset preprocessing and visualized data using scatter plots, histograms, correlation matrices, and heatmaps. Image processing involved resizing and adjusting colors to highlight features, using MATLAB with various colormaps. 
+
+Challenges:  
+
+Had questions about the presentation content but clarified them with Ms. Hend. 
+
+ Next Steps: 
+
+Complete and fine-tune the presentation. 
+
+  
+
+--- 
+
+  
+
+Week 5: 
+
+ Summary:   
+
+We practiced clustering and the Bayes classifier through in Lab 4 and Lab 5 and tried implementing it using our preprocessed dataset. 
+
+  
+
+Next Steps:   
+
+Continue working on the labs and complete remaining tasks. 
+
+  
+
+--- 
+
+  
+
+Week 6: 
+
+  
+
+Summary:   
+
+Met to assess coursework progress, discuss upcoming tasks, and giveresponsibilities among team members. 
+
+  
+
+--- 
+
+  
+
+Week 7: 
+
+Summary:  
+
+Worked through the Decision Tree lab, learning the basics and applications. 
+
+Next Steps: 
+
+Continue studying decision trees. 
+
+  
+
+--- 
+
+  
+
+Week 8: 
+
+ Summary: 
+
+Started work on the Linear and Logistic Regression lab. 
+
+ Next Steps:   
+
+Finish Lab 8 and start drafting the report due in Week 11. 
