@@ -2,7 +2,7 @@
 F21DL Coursework AY 2024-25
 
 ## Group Name:
- Undergraduate  Group 13
+ Undergraduate  Group 03
 ## Project Title: 
 
  Predicting and Analyzing damage from hurricanes and typoons
@@ -10,9 +10,9 @@ F21DL Coursework AY 2024-25
 ## Group Members 
 •	Joseph Abdo
 
-•	Joe Ettumanookaran
+•	Joepaul Ettumanookaran
 
-•	Lubna Gulnar
+•	Lubna Gulnaar
 
 •	Thomson Thomas 
 
