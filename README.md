@@ -146,3 +146,82 @@ For image datasets: visualizing sample images to verify preprocessing.
 
 
 
+
+## Data Analysis and Exploration
+
+The numerical dataset was loaded as a .CSV file and analyzed using methods like .info(), .describe(), and .shape() to understand its structure, data types, and statistics, including value ranges and missing data. Rows with missing values were removed to ensure data completeness. A scatter plot of "Maximum Wind vs. Minimum Pressure" was created to understand how the two parameters affect each other. The image dataset, consisting of .jpeg files, was preprocessed for machine learning by normalizing and reshaping the images to maintain consistent sizes. 
+
+Data Analysis and Exploration can be found at: https://github.com/unicornpjs/Dubai_UG_3/blob/396568d47bd44f4e158443a822d19324b07d8ee3/Notebooks/Data%20PreProcessing%20and%20Analysis/Preprocessing1.ipynb
+
+## The K-means clustering 
+
+The K-means clustering algorithm was applied to hurricane data, using features like wind speed and pressure, to identify patterns for categorizing hurricanes into categories like tropical storm and no hurricane. The Atlantic and Pacific datasets were merged, with non-numeric columns and missing values removed to ensure data integrity. Features were standardized using "StandardScaler" before applying K-means with three clusters (k=3). Additionally, K-means was used on the image dataset with two clusters (k=2) for segmentation, helping group regions of the images to enhance image analysis.
+
+The K-means clustering can be found at: https://github.com/unicornpjs/Dubai_UG_3/blob/396568d47bd44f4e158443a822d19324b07d8ee3/Notebooks/Clustering/UG3_kmeans_clustering.ipynb
+
+## Baseline Training and Evaluation Experiments
+
+A Decision Tree Classifier was used to classify hurricanes as either Atlantic or Pacific, and predict the hurricane type and location based on wind and pressure. 
+
+The Gaussian Naive Bayes (GNB) algorithm was also applied to classify the data into Atlantic and Pacific categories, evaluating its accuracy and ability to identify mislabeled points under different data split ratios.
+
+ The K-Nearest Neighbors (KNN) algorithm was used for the same classification task.
+
+ the Baseline Training and Evaluation Experiments can be found at: https://github.com/unicornpjs/Dubai_UG_3/blob/main/Notebooks/Baseline%20Training%20and%20Evaluation%20Experiments/PredictiveModels_BY_DC_KNN.ipynb
+
+Linear logistic regression was implemented to analyze the relationship between Minimum Pressure and Maximum Wind and predict hurricanes.
+ 
+The files where linear and logistic regression are explored can be found under this folder: https://github.com/unicornpjs/Dubai_UG_3/tree/d4b84f6e7296c88e7461bf405853ca193d390a4b/Notebooks/Baseline%20Training%20and%20Evaluation%20Experiments
+
+
+## Neural Networks
+### CNN
+CNN was utilized in image processing, with the model being selected for its architectural advantages in recognizing patterns in image data. The dataset was split as done previously, with the CNN classifier being trained based on the segmented images. The images were passed through the algorithm layer by layer, first with the input layer before the algorithm extracted main features, creating links and flatting the features to fully connect the layers. This process was repeated multiple times to improve the performance of the program.
+
+the file for CNN can be found at: https://github.com/unicornpjs/Dubai_UG_3/blob/d4b84f6e7296c88e7461bf405853ca193d390a4b/Notebooks/Image%20Processing/%20UG3_TechnoDragons_ImageProcessing.ipynb
+
+
+##  Results
+
+| Algorithm           | Accuracy | Precision | F1 Score | Recall |
+|---------------------|----------|-----------|----------|--------|
+| Naive Bayes         | 0.62     | 0.68      | 0.73     | 0.79   |
+| KNN                 | 0.66     | 0.71      | 0.75     | 0.81   |
+| Decision Trees      | 0.66     | 0.68      | 0.77     | 0.90   |
+| Logistic Regression | 0.65     | 0.65      | 0.79     | 1.00   |
+| CNN                 | 0.86     |     -     |     -    |    -   |
+
+
+
+## Files/folders in the Git Reprository
+
+### Datasets
+Contains the the two Datasets used.
+#### Hurricane Data Numerical:
+contains atlantic.csv and pacific.csv files
+#### Image Dataset:
+contains damage and no damage files
+
+### Documentation
+Within documentation, we have two files that tracks weeky updates and intitial idea exploration.
+
+### Notebooks: 
+#### Baseline Training and Evaluation Experiments:
+contains files for linear and logistic regression, KNN, decision tress and Naive bayes
+
+#### clustering:
+contains the kmeans clustering file
+#### Data PreProcessing and Analysis:
+contains the numerical data preprocessing files
+#### Image Processing:
+contains the data preprocessing files for the images Dataset
+
+### Project Pitch: 
+contains the presentation for the project pitch.
+
+
+
+
+
+
+
